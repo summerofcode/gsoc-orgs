@@ -1,0 +1,13 @@
+title: GSoC org browser
+page_gen:
+  - data: orgs
+    name: name
+    template: org
+    dir: orgs
+page_gen-dirs: false
+encoding: utf-8
+highlighter: rouge
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
