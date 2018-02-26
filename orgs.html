@@ -1,0 +1,66 @@
+<style>
+	body {
+		margin: 0;
+	}
+
+
+	#container {
+		width: 25%;
+		border: solid #ff2243 3px;
+		position: absolute;
+		text-align: center;
+		left: 50%;
+		top: 50%;
+		background-color: #fff;
+		padding: 0px;
+	}
+
+	#head {
+		top: 0%;
+		margin: 0;
+		color: #fff;
+		background-color: #ff0043;
+	}
+
+	#title {
+		float: left;
+	}
+
+	#quit-btn {
+		float: right;
+	}
+
+	#quit-btn:hover {
+		background-color: cc0023;
+	}
+
+	#web {
+		padding: 5px;
+		color: #fff;
+		background-color: #ff0043;
+	}
+
+	#web:hover {
+		background-color: #ff2243;
+	}
+</style>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/p5.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+<script src="jsonloader.js"></script>
+<script src="visualizer.js"></script>
+
+<div id="container">
+	<div id="head">
+		&nbsp;
+		<div id="title"> Hello </div>
+		<div id="quit-btn"> &times; </div>
+	</div>
+	<div id="body">
+		<p id="desc"></p>
+	</div>
+
+	<a href="" id="web">Visit Web</a>
+
+</div>

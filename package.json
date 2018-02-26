@@ -1,0 +1,32 @@
+{
+  "name": "gsoc-orgs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "jsonloader.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/summerofcode/gsoc-orgs.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/summerofcode/gsoc-orgs/issues"
+  },
+  "homepage": "https://github.com/summerofcode/gsoc-orgs#readme",
+  "dependencies": {
+    
+  },
+  "devDependencies": {
+    "eslint": "^4.18.2",
+    "eslint-config-p5js": "^1.0.1",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-promise": "^3.7.0",
+    "eslint-plugin-standard": "^3.0.1"
+  }
+}

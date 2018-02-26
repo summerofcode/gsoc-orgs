@@ -1,0 +1,17 @@
+{
+    "env": {
+        "browser": true,
+        "es6": true,
+        "jquery": true
+    },
+    "globals": {
+        "loadData": true
+    },
+    "rules": {
+        "no-unused-vars": [2, {"vars": "local"}]
+    },
+    "extends": [
+        "p5js",
+        "standard"
+    ]
+}
