@@ -1,0 +1,14 @@
+---
+title: Search
+permalink: search/
+---
+
+<div class="container">
+  <h1>{{ page.title }}</h1>
+  <div class="search">
+    {% jekyll_pages_api_search_interface %}
+    {% jekyll_pages_api_search_results %}
+  </div>
+</div>
+<script>JEKYLL_PAGES_API_SEARCH_BASEURL = '';</script>
+<script async src="/assets/js/search-bundle.js"></script>

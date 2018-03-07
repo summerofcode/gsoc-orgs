@@ -13,6 +13,14 @@ kramdown:
   syntax_highlighter: rouge
 include:
   - _data
+jekyll_pages_api_search:
+  index_fields:
+    title:
+      boost: 10
+    tags:
+      boost: 10
+    url:
+      boost: 5
 exclude:
   - Gemfile
   - Gemfile.lock
